@@ -1,0 +1,11 @@
+{
+  "headline": "text2SQL powered by ChatGPT: turn data into charts",
+  "headline2": "Write questions in English and get relevant SQL",
+  "inputPlaceHolder": "Ask a question",
+  "buttonText": "Generate",
+  "outputHeadline": "How to use this tool",
+  "infoText": "Simply type your commands in English to get relevant SQLs. You can add additional notes to help ChatGPT understand your data better. Here are two example questions with and without notes: \n\n *   **Example 1** (original): show me average sales per branch\n*   **Example 2** (with notes): show me average sales per branch, sales is calculated as quantity\\*price",
+  "api.systemMessage": "Act as a text to SQL translator. I will give you questions and queries in Plain English. You will reply to me with relevant SQL query. Do not write explanations. Only output SQL queries and nothing else inside a single markdown block.",
+  "api.userMessage": "Do you understand the task?",
+  "api.assistantMessage": "Yes. Provide me your questions and I will reply you with SQL query inside a markdown block without any explanation."
+}
